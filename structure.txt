@@ -1,0 +1,38 @@
+App (state: messages, route)
+	Header (props: messages, route)
+		Wrapper                                 (Style for Header and Content Below)
+			Navigation (props: messages, route)
+				NavigationItem (props: active)
+		Wrapper
+			CreateView
+				FormItem
+					TextField
+				FormItem
+					TextField
+				Button
+			ListView
+				ListViewInfo
+				ListViewItem
+
+
+enum Route {
+    CREATE = 'CREATE',
+    VIEW = 'VIEW'
+}
+
+function App() {
+const [messages, setMessages] = useState([]);
+const [route, setRoute] = useState(Route.CREATE);
+
+ return <>
+	<Header messages={messages} />
+</>
+}
+
+function Header({messages}) {
+	return <div >
+    <Wrapper>
+	    <Navigation messages={message} />
+    </Wrapper>
+</>
+

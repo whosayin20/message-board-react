@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    background-color: #F5F9F9;
+}
+
+h1 {
+    padding: 30px 50px;
+    font-family: "Verdana", "Courier New", monospace;
+}
+
+button:active {
+    background: rgb(223, 223, 223);
+}
+
+/*View List css*/
+
+.item {
+    background-color: #F5F9F9; 
+    border: 0px;
+    border-radius: 4px;
+    border-left: 3px solid #a50000;  
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 50px;
+    display: block;
+}
+
+.item:hover {
+    background-color: #b4b4b4;
+}
+
+.subject {
+    text-align: left;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    margin: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.body {
+    color: #8B8D8D;
+    font-size: 13px;
+    font-family: Helvetica;
+    margin: 10px;
+    text-align: left;
+}
+
+.item-read {
+    border-left: 3px solid grey;
+}
+   
+.count-info {
+       margin-left: 50px;
+       margin-top: 15px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   

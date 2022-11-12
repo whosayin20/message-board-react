@@ -1,0 +1,17 @@
+.NavigationItem-root {
+    background: transparent;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: "Verdana", "Courier New", monospace;
+    color: #6e7070;
+    text-transform: uppercase;
+}
+
+.NavigationItem-active {
+    border-bottom: 3px solid #3E7B7B;
+}
+
+.nav-create {
+    margin-left: 50px;
+}
